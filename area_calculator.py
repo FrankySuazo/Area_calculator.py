@@ -16,8 +16,8 @@ if shape == 3:
   area = side ** 2
   print(f"The area is {area}")
 elif shape == 2:
-  length = int(input("Length: "))
-  width = int(input("Width: "))
+  length = float(input("Length: "))
+  width = float(input("Width: "))
   area = length * width
   print(f"The area is {area}")
 elif shape == 1:
@@ -29,5 +29,7 @@ elif shape == 4:
   radius = int(input("Radius:"))
   area = math.pi * (radius ** 2)
   print(f"The area is {area}")
+elif shape == 5:
+    print("Goodbye!")
 else:
-  print("You quited")
+    print("Invalid selection. Please choose 1-5.")
